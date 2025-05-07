@@ -5,9 +5,7 @@ nav_order: 2
 
 # Media
 
-![Rock engraving of the Iziko Rhino]({{ site.baseurl }}/assets/img/Iziko_Rhino.jpg)
-
-![Synthetic Rhino (DALL·E)]({{ site.baseurl }}/assets/img/DALL-E_iziko_rhino.webp)
+![Rock engraving of the Iziko Rhino]({{ site.baseurl }}/assets/img/Kinderdam_rhino.jpg)
 
 ## Thinking about media
 
@@ -15,48 +13,52 @@ nav_order: 2
 
 What did you do when you first opened your eyes this morning? What did you do yesterday evening?
 
-There’s a good chance that your morning and evening rituals involved paying attention to some type of media. Perhaps in the morning you checked your [social media]({{ site.baseurl }}/ideas/social-media/) timelines for updates from friends on Instagram or to see new trends on TikTok, or checked your browser for the news. Perhaps in the evening you settled down to watch a form of [mass media]({{ site.baseurl }}/ideas/mass-media/), such as a television series on a broadcast or streaming platform. Probably, if you’re like most South Africans, the sound of a radio or podcast kept you company at some time in the day.
+There’s a good chance that your morning and evening rituals involved paying attention to some type of media. Perhaps in the morning you checked your [social media](https://media-and-society.glitch.me/ideas/social-media/) timelines for updates from friends on Instagram or new trends on TikTok, or you checked your browser for the news. Perhaps in the evening you settled down to watch a form of [mass media](https://media-and-society.glitch.me/ideas/mass-media/), such as a television series on a streaming platform. If you’re like most South Africans, the sound of a radio or podcast kept you company at some time in the day.
 
-It’s very likely that you used a medium to communicate with others, perhaps an aural medium such as the sound produced when you speak (or sing in the shower!) or a visual medium such as your clothing, facial expressions, gestures or sign language.
+It’s very likely that you used a medium to communicate with others—aural (speech, singing) or visual (clothing, facial expressions, gestures, sign language).
 
 > **Activity:**  
-> Because we use various forms of media so often, we may not even be aware of everything that goes into accessing and producing them.  
+> Because we use so many forms of media without even noticing, reflect on:  
 > - When do you first remember using media?  
-> - What role have different languages and different types of media played in your life so far?  
-> - What media industries do you find most interesting?
+> - What role have different languages and media played in your life so far?  
+> - Which media industries do you find most interesting?
 
 ---
 
 ### What are media?
 
-In English, the word *media* evolved from the Latin *medius* which means “in the middle” ([Harper, n.d.](https://www.etymonline.com/word/media)). In this course we are studying media of communication, the physical media, languages and industries which we use to connect with others and to communicate.
+In English, the word *media* evolved from the Latin *medius* (“in the middle”) ([Harper, n.d.](https://www.etymonline.com/word/media)). In this course we study the physical media, languages, and industries we use to connect and communicate.
 
-We tend to think of media as print or electronic media, but people have been using media to communicate for a very long time. For example, rock engravings like the “Iziko Rhino” :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3} were created thousands of years ago and have survived to connect us with their original makers. The enduring nature of a rock engraving is one of its *affordances* for communication; at different times of day or in certain light, the engravings may even appear to move (e.g. flickering in firelight).
+We tend to think of print or electronic media, but people have been communicating via media for millennia. For example, the [“Iziko Rhino”](https://commons.wikimedia.org/wiki/File:Kinderdam_rhino.jpg) (see Figure 1) is a rock engraving made by Later Stone Age ancestors of the ǀXam San at Kinderdam, North West Province, between 1 000 and 10 000 years ago.
 
-Many other communication technologies have since been developed, including print media, digital images, audio and video formats, the electromagnetic spectrum (e.g. radio waves, cellphone signals), the internet, and generative AI.
+That engraving’s **affordances**—its durability, interaction with surrounding light, even flickering firelight that animates the lines—still connect us to its creators (Hodgskiss & Esterhuysen, 2019). We call these **affordances** the potentials and constraints of a medium ([definitions](https://media-and-society.glitch.me/ideas/definitions/#Affordance)).
+
+> **Figure 1:** “Iziko Rhino”—Rock engraving of a rhino at Kinderdam. Credit: Wikimedia Commons
+
+Many other communication technologies followed: print, digital images, audio/video formats, radio waves, the internet and generative AI.
 
 ---
 
 ### Oramedia
 
-[Oramedia]({{ site.baseurl }}/ideas/oramedia/) includes traditionally oral forms such as storytelling, proverbs, folklore, folktales, drama, puppetry and oral poetry (Ugbuojah, 1985), many of which are only produced using the human body.
-
-These forms often go beyond the spoken word, using vivid performances, improvisation, mimicry, music, dance, the tonal character of many African languages, and the responses of the audience to make the most of the potential affordances of the oral medium (Finnegan, 2012:5–10).
+[Oramedia](https://media-and-society.glitch.me/ideas/oramedia/) includes oral storytelling, proverbs, folktales, drama, puppetry and poetry (Ugbuojah, 1985). These often use performance, improvisation, mimicry, music, dance, tonal language features and audience interaction (Finnegan, 2012:5–10).
 
 ---
 
 ### What about digital media?
 
-Today many forms of digital media are encoded in different formats and depend on a specific configuration of technologies and infrastructure such as electricity, internet connectivity, fibre optic cables, electromagnetic signals transmitted by radio or television broadcasters or mobile phone signals. Contemporary technologies of production and distribution mean that it is possible to communicate across long distances with people around the world.
+Today’s digital media rely on electricity, internet connections, fibre-optics, broadcast signals and complex production/distribution systems—enabling global communication at the click of a button.
+
+In the case of the Iziko Rhino, a Wikipedian at the Africa Centre in Cape Town published a photograph of the engraving to [Wikimedia Commons](https://commons.wikimedia.org), making it viewable worldwide.
 
 ---
 
 ### What makes social media different?
 
-Social media platforms bring together users, content creators and advertisers, typically on a dedicated site or app. Most platforms provide tools for sharing media (text, photos, videos) with family and friends or for entertainment and professional networking.
+Social media platforms unite users, creators and advertisers on single apps or sites, providing tools for sharing text, photos and video with friends, family, or for entertainment and professional purposes.
 
 > **Activity:**  
-> Compare the affordances of posting a message using (1) email and (2) a social media platform.  
+> Compare posting via (1) email vs. (2) a social media platform.  
 > - Which affordances do you appreciate most?  
 > - Which do you dislike?
 
@@ -64,43 +66,34 @@ Social media platforms bring together users, content creators and advertisers, t
 
 ### Is AI a form of media?
 
-Generative Artificial Intelligence or [Generative AI]({{ site.baseurl }}/ideas/synthetic-media/) systems automate media production by computers. We call this *synthetic media*. Generative AI uses statistical models—like Large Language Models (e.g. ChatGPT) for text or diffusion models (e.g. DALL·E) for images—to synthesize new content.
+Generative AI systems automate media creation via statistical models: LLMs (e.g. ChatGPT) for text, diffusion models (e.g. DALL·E) for images.  
 
-Here’s a quick demo YouTube embed (replace `VIDEO_ID` with an actual demo clip):
+<Synthetic Rhino by DALL·E>  
+![Synthetic Iziko Rhino by DALL·E]({{ site.baseurl }}/assets/img/DALL-E_iziko_rhino.webp)
 
-{% include youtube.html id="VIDEO_ID" %}
-
-Synthetic media raises issues of trust, bias, and provenance—bulk‐generated “AI sludge” can flood social feeds with dis- or misinformation and deepfakes.
+This **synthetic media** raises questions of trust, bias and provenance—capable of bulk misinformation or “deepfakes.”
 
 ---
 
 ## Meanings of “media”
 
-When we talk loosely about media, we tend to bundle several senses of the word together:
+1. **Media of production/distribution/reception**: print, soundwaves, rock engravings, fabrics, paint.  
+2. **Medium (mode) of communication**: human languages (isiXhosa, Afrikaans, English), visuals, music.  
+3. **Media industries**: for-profit broadcasters, publishers, PR agencies, social platforms—motivated by ad revenue and subscriptions.
 
-1. **Media of production, distribution and reception**  
-   Durable materials (rock, print) or digital formats (audio, video) used to create & convey messages.
-
-2. **Medium (mode) of communication**  
-   Human languages (isiXhosa, Afrikaans, English) or other modes (visuals, music).
-
-3. **Media industries & organisations**  
-   For-profit networks like broadcasters, publishers, and social platforms that package & sell media.
+Though the Iziko Rhino lives on a non-profit Wikimedia Commons, we still rely on commercial industries (devices, hosting, electricity, internet) to access it.
 
 ---
 
-### Check your understanding
+## Check your understanding
 
-Below is a TikTok embed of the @wehustleclips clip. Answer questions about the symbolism:
+> Here’s a TikTok clip by @wehustleclips.  
+> Reflect on Kendrick Lamar’s Super Bowl halftime show …
 
-<blockquote class="tiktok-embed"  
-  cite="https://www.tiktok.com/@wehustleclips/video/1234567890"  
-  data-video-id="1234567890"  
-  style="max-width: 605px;min-width: 325px;">  
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@wehustleclips/video/1234567890" data-video-id="1234567890" style="max-width: 605px;min-width: 325px;">  
   <section>  
     <a target="_blank" title="@wehustleclips" href="https://www.tiktok.com/@wehustleclips">@wehustleclips</a>  
     <p>Symbolism in Kendrick Lamar’s Super Bowl half time show…</p>  
-    <a target="_blank" title="♬ original sound – wehustleclips" href="https://www.tiktok.com/music/original-sound-1234">♬ original sound – wehustleclips</a>  
   </section>  
 </blockquote>  
 <script async src="https://www.tiktok.com/embed.js"></script>
@@ -109,18 +102,24 @@ Below is a TikTok embed of the @wehustleclips clip. Answer questions about the s
 
 ## About this pocket textbook
 
-This pocket textbook focuses on the use of media in African contexts and emphasises insights from cultural studies and social semiotics.
+This pocket textbook focuses on media in African contexts, emphasizing cultural studies and social semiotics.
 
 ### Important definitions
 
-- [Mass media]({{ site.baseurl }}/ideas/mass-media/)  
-- [Oramedia]({{ site.baseurl }}/ideas/oramedia/)  
-- [Social media]({{ site.baseurl }}/ideas/social-media/)  
-- [Synthetic media]({{ site.baseurl }}/ideas/synthetic-media/)
+- [Mass media](https://media-and-society.glitch.me/ideas/mass-media/)  
+- [Oramedia](https://media-and-society.glitch.me/ideas/oramedia/)  
+- [Social media](https://media-and-society.glitch.me/ideas/social-media/)  
+- [Synthetic media](https://media-and-society.glitch.me/ideas/synthetic-media/)
 
-Other key terms are explained in [Definitions]({{ site.baseurl }}/ideas/definitions/). Keep your own glossary as you go.
+Find others in the [full list of definitions](https://media-and-society.glitch.me/ideas/definitions/).
+
+### References
+
+Sources are listed in the [List of references](https://media-and-society.glitch.me/ideas/references/).
 
 ---
 
-Next Idea: [People]({{ site.baseurl }}/ideas/people/)  
-[Centre for Film & Media Studies](https://cfms.uct.ac.za)
+*Published: 2025-02-19*
+
+Next up: [People](https://media-and-society.glitch.me/ideas/people/)  
+[Centre for Film & Media Studies](https://cfms.uct.ac.za)  
