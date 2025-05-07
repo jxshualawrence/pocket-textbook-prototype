@@ -17,12 +17,12 @@ jobs:
 
       - name: Generate PDF
         run: |
-          pandoc docs/index.md docs/chapter1.md docs/chapter2.md \
+          pandoc docs/*.md \
             -V geometry:margin=1in \
             -o pocket-textbook.pdf
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: pocket-textbook-pdf
           path: pocket-textbook.pdf
