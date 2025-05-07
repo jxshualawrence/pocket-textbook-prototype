@@ -3,6 +3,9 @@ title: Pocket Textbook Prototype
 description: A 3-page demo of the FAM1001F pocket textbook
 remote_theme: just-the-docs/just-the-docs
 
+url: "https://jxshualawrence.github.io"
+baseurl: "/pocket-textbook-prototype"
+
 collections:
   docs:
     output: true

@@ -5,13 +5,17 @@ nav_order: 2
 
 # Media
 
+![Rock engraving of the Iziko Rhino]({{ site.baseurl }}/assets/img/Iziko_Rhino.jpg)
+
+![Synthetic Rhino (DALL·E)]({{ site.baseurl }}/assets/img/DALL-E_iziko_rhino.webp)
+
 ## Thinking about media
 
 *By Marion Walton, University of Cape Town*
 
 What did you do when you first opened your eyes this morning? What did you do yesterday evening?
 
-There’s a good chance that your morning and evening rituals involved paying attention to some type of media. Perhaps in the morning you checked your [social media](https://media-and-society.glitch.me/ideas/social-media/) timelines for updates from friends on Instagram or to see new trends on TikTok, or checked your browser for the news. Perhaps in the evening you settled down to watch a form of [mass media](https://media-and-society.glitch.me/ideas/mass-media/), such as a television series on a broadcast or streaming platform. Probably, if you’re like most South Africans, the sound of a radio or podcast kept you company at some time in the day.
+There’s a good chance that your morning and evening rituals involved paying attention to some type of media. Perhaps in the morning you checked your [social media]({{ site.baseurl }}/ideas/social-media/) timelines for updates from friends on Instagram or to see new trends on TikTok, or checked your browser for the news. Perhaps in the evening you settled down to watch a form of [mass media]({{ site.baseurl }}/ideas/mass-media/), such as a television series on a broadcast or streaming platform. Probably, if you’re like most South Africans, the sound of a radio or podcast kept you company at some time in the day.
 
 It’s very likely that you used a medium to communicate with others, perhaps an aural medium such as the sound produced when you speak (or sing in the shower!) or a visual medium such as your clothing, facial expressions, gestures or sign language.
 
@@ -27,21 +31,15 @@ It’s very likely that you used a medium to communicate with others, perhaps an
 
 In English, the word *media* evolved from the Latin *medius* which means “in the middle” ([Harper, n.d.](https://www.etymonline.com/word/media)). In this course we are studying media of communication, the physical media, languages and industries which we use to connect with others and to communicate.
 
-We tend to think of media as print or electronic media, but people have been using media to communicate for a very long time. For example, the [“Iziko Rhino”](https://commons.wikimedia.org/wiki/File:Kinderdam_rhino.jpg) (see Figure 1) is thought to have been created thousands of years ago when someone carefully engraved the image of a rhino on a rock.
+We tend to think of media as print or electronic media, but people have been using media to communicate for a very long time. For example, rock engravings like the “Iziko Rhino” :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3} were created thousands of years ago and have survived to connect us with their original makers. The enduring nature of a rock engraving is one of its *affordances* for communication; at different times of day or in certain light, the engravings may even appear to move (e.g. flickering in firelight).
 
-The creators of the engraving are thought to be the Later Stone Age ancestors of the ǀXam San at Kinderdam in North West Province, who created images such as this between 1,000 and 10,000 years ago. The long-lasting medium of the rock engraving has survived many centuries and still connects contemporary viewers to its original creators despite the destruction of the /Xam society under colonialism.
-
-The enduring nature of a rock engraving is one of its [affordances](/ideas/definitions/#Affordance) for communication. Another affordance is that the engraving on the rock interacts with its surroundings, so that, at certain times of day, or in certain angles of light, the engravings may have suddenly become more visible, or may seem to move (e.g. in flickering firelight) (Hodgskiss & Esterhuysen, 2019). We use the term *affordance* to refer to the potential and constraints of different modes of communication.
-
-> **Figure 1:** “Iziko Rhino” – Rock engraving of rhino from Kinderdam. Credit: Wikimedia Commons
-
-Many other communication technologies have been developed, including print media, digital images, audio and video formats, the electromagnetic spectrum (e.g. radio waves and cellphone signals), the internet and generative AI.
+Many other communication technologies have since been developed, including print media, digital images, audio and video formats, the electromagnetic spectrum (e.g. radio waves, cellphone signals), the internet, and generative AI.
 
 ---
 
 ### Oramedia
 
-[Oramedia](/ideas/oramedia/) includes traditionally oral forms such as storytelling, proverbs, folklore, folktales, drama, puppetry and oral poetry (Ugbuojah, 1985), many of which are only produced using the human body.
+[Oramedia]({{ site.baseurl }}/ideas/oramedia/) includes traditionally oral forms such as storytelling, proverbs, folklore, folktales, drama, puppetry and oral poetry (Ugbuojah, 1985), many of which are only produced using the human body.
 
 These forms often go beyond the spoken word, using vivid performances, improvisation, mimicry, music, dance, the tonal character of many African languages, and the responses of the audience to make the most of the potential affordances of the oral medium (Finnegan, 2012:5–10).
 
@@ -55,7 +53,7 @@ Today many forms of digital media are encoded in different formats and depend on
 
 ### What makes social media different?
 
-Social media platforms bring together users, content creators and advertisers, in many cases on a social media site or app. Most of these platforms provide tools and functionality for sharing media (text, photos, and videos) with family and friends or for entertainment or professional purposes.
+Social media platforms bring together users, content creators and advertisers, typically on a dedicated site or app. Most platforms provide tools for sharing media (text, photos, videos) with family and friends or for entertainment and professional networking.
 
 > **Activity:**  
 > Compare the affordances of posting a message using (1) email and (2) a social media platform.  
@@ -66,38 +64,46 @@ Social media platforms bring together users, content creators and advertisers, i
 
 ### Is AI a form of media?
 
-Generative Artificial Intelligence or [Generative AI](/ideas/synthetic-media/) systems are specialised systems to automate media production by computers. We call this form of digital media *synthetic media*. Generative AI uses computer algorithms to synthesize media using a statistical model, such as for example, a Large Language Model (LLM) (e.g. ChatGPT) for generating text or a diffusion model (e.g. DALL·E) for generating images.
+Generative Artificial Intelligence or [Generative AI]({{ site.baseurl }}/ideas/synthetic-media/) systems automate media production by computers. We call this *synthetic media*. Generative AI uses statistical models—like Large Language Models (e.g. ChatGPT) for text or diffusion models (e.g. DALL·E) for images—to synthesize new content.
 
-Synthetic media creates many difficulties for us regarding its trustworthiness, bias and provenance. Generative AI can easily be used to bulk generate spam or targeted dis- or misinformation and deepfakes. Because such messaging can be generated in bulk it is sometimes referred to dismissively as “AI sludge.”
+Here’s a quick demo YouTube embed (replace `VIDEO_ID` with an actual demo clip):
 
-> **Figure 2:** This synthetic image of a rhino was produced by OpenAI’s DALL·E model in response to the prompt “Picture of Iziko Rhino.” DALL·E labelled its own synthetic image incorrectly as “A realistic sculpture of the Iziko Rhino, a famous bronze rhinoceros statue located in Cape Town, South Africa.”  
+{% include youtube.html id="VIDEO_ID" %}
+
+Synthetic media raises issues of trust, bias, and provenance—bulk‐generated “AI sludge” can flood social feeds with dis- or misinformation and deepfakes.
 
 ---
 
 ## Meanings of “media”
 
-When we talk loosely about media, we tend to bundle several senses of the word together – (1) production and distribution, (2) communication, and (3) media industries or organisations.
+When we talk loosely about media, we tend to bundle several senses of the word together:
 
-#### 1. Media of production, distribution and reception
+1. **Media of production, distribution and reception**  
+   Durable materials (rock, print) or digital formats (audio, video) used to create & convey messages.
 
-We use a wide range of media to produce, distribute or convey messages to one another. We tend to think of electronic or print media first, but, as in the case of the rhino engraving in Figure 1, humans have used durable materials such as rock to communicate with one another throughout history. Other examples of everyday media used to create and distribute messages include soundwaves, fabrics and paint.
+2. **Medium (mode) of communication**  
+   Human languages (isiXhosa, Afrikaans, English) or other modes (visuals, music).
 
-#### 2. Medium (mode) of communication
-
-The phrase “medium of communication” is often used to refer to human languages such as isiXhosa, Afrikaans, and English. We tend to use the word “mode” when we refer to other modes of communication, such as visuals or music.
-
-#### 3. Media industries and organisations
-
-Often when we talk about “the media” we are referring to the for-profit media industries which have developed around complex media production and distribution networks such as television broadcasting, news publishers and networks, advertising and public relations agencies, or social media platforms.  
-
-In contemporary society, such organisations are usually primarily motivated to make a profit, which means they depend on selling subscriptions and advertising.
+3. **Media industries & organisations**  
+   For-profit networks like broadcasters, publishers, and social platforms that package & sell media.
 
 ---
 
 ### Check your understanding
 
-> [@wehustleclips](https://www.tiktok.com/@wehustleclips) Symbolism in Kendrick Lamar’s Super Bowl half time show…  
-> **Answer questions about the clip using the form below.**
+Below is a TikTok embed of the @wehustleclips clip. Answer questions about the symbolism:
+
+<blockquote class="tiktok-embed"  
+  cite="https://www.tiktok.com/@wehustleclips/video/1234567890"  
+  data-video-id="1234567890"  
+  style="max-width: 605px;min-width: 325px;">  
+  <section>  
+    <a target="_blank" title="@wehustleclips" href="https://www.tiktok.com/@wehustleclips">@wehustleclips</a>  
+    <p>Symbolism in Kendrick Lamar’s Super Bowl half time show…</p>  
+    <a target="_blank" title="♬ original sound – wehustleclips" href="https://www.tiktok.com/music/original-sound-1234">♬ original sound – wehustleclips</a>  
+  </section>  
+</blockquote>  
+<script async src="https://www.tiktok.com/embed.js"></script>
 
 ---
 
@@ -107,20 +113,14 @@ This pocket textbook focuses on the use of media in African contexts and emphasi
 
 ### Important definitions
 
-- [Mass media](/ideas/mass-media/)  
-- [Oramedia](/ideas/oramedia/)  
-- [Social media](/ideas/social-media/)  
-- [Synthetic media](/ideas/synthetic-media/)
+- [Mass media]({{ site.baseurl }}/ideas/mass-media/)  
+- [Oramedia]({{ site.baseurl }}/ideas/oramedia/)  
+- [Social media]({{ site.baseurl }}/ideas/social-media/)  
+- [Synthetic media]({{ site.baseurl }}/ideas/synthetic-media/)
 
-Other important new terms are explained briefly in our list of [definitions](/ideas/definitions/). You should keep your own glossary of new words and concepts throughout the semester.
-
-### References
-
-The sources used in this article can be found by following the links on the citations. All sources are included in the [List of references](/ideas/references/).
-
-*Published: 2025-02-19*
+Other key terms are explained in [Definitions]({{ site.baseurl }}/ideas/definitions/). Keep your own glossary as you go.
 
 ---
 
-Next Idea: [People](/ideas/people/)  
+Next Idea: [People]({{ site.baseurl }}/ideas/people/)  
 [Centre for Film & Media Studies](https://cfms.uct.ac.za)
