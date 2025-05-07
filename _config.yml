@@ -1,0 +1,9 @@
+# _config.yml
+title: Pocket Textbook Prototype
+description: A 3-page demo of the FAM1001F pocket textbook
+remote_theme: just-the-docs/just-the-docs
+
+# Treat docs/ as your collection of pages:
+collections:
+  docs:
+    output: true

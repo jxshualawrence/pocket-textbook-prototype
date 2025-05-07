@@ -1,0 +1,28 @@
+name: Build Pocket Textbook PDF
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Pandoc & TeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Generate PDF
+        run: |
+          pandoc docs/index.md docs/chapter1.md docs/chapter2.md \
+            -V geometry:margin=1in \
+            -o pocket-textbook.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: pocket-textbook-pdf
+          path: pocket-textbook.pdf
