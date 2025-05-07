@@ -1,15 +1,11 @@
 # _config.yml
 title: Pocket Textbook Prototype
-description: A 3-page demo of the Media & Society pocket textbook
+description: A 3-page demo of the FAM1001F pocket textbook
+remote_theme: just-the-docs/just-the-docs
 
-# Use the Just the Docs theme (no plugins needed)
-remote_theme: just-the-docs/just-the-doc
-
-# Tell Jekyll where this will live on GitHub Pages:
 url: "https://jxshualawrence.github.io"
 baseurl: "/pocket-textbook-prototype"
 
-# Treat docs/ as your site’s pages:
 collections:
   docs:
     output: true
