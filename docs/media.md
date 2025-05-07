@@ -5,8 +5,6 @@ nav_order: 2
 
 # Media
 
-![Rock engraving of the Iziko Rhino]({{ site.baseurl }}/assets/img/Kinderdam_rhino.jpg)
-
 ## Thinking about media
 
 *By Marion Walton, University of Cape Town*
