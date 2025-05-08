@@ -3,7 +3,7 @@ title: Meaning
 nav_order: 3
 description: "Meaning and meaning-making"
 ---
-
+<button onclick="window.print()" class="btn btn-primary">Download this page as PDF</button>
 # Media & Meaning
 
 *By Marion Walton, University of Cape Town*
