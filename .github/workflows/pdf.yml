@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Check out the repository code
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Set up Ruby and Jekyll to build the site
       - name: Setup Ruby
@@ -58,7 +58,7 @@ jobs:
 
       # (Optional) Upload the PDF as an artifact (available in the Actions run)
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: PocketTextbook_PDF
           path: pocket-textbook.pdf

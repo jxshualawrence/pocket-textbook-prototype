@@ -91,13 +91,10 @@ Though the Iziko Rhino lives on a non-profit Wikimedia Commons, we still rely on
 > Here’s a TikTok clip by @wehustleclips.  
 > Reflect on Kendrick Lamar’s Super Bowl halftime show …  
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@wehustleclips/video/1234567890" data-video-id="1234567890" style="max-width: 605px; min-width: 325px;">
-  <section>
-    <a target="_blank" title="@wehustleclips" href="https://www.tiktok.com/@wehustleclips">@wehustleclips</a>
-    <p>Symbolism in Kendrick Lamar’s Super Bowl half time show…</p>
-  </section>
-</blockquote>  
-<script async src="https://www.tiktok.com/embed.js"></script>
+<iframe width="325" height="575" 
+        src="https://www.tiktok.com/embed/v3/7469872080104820001" 
+        frameborder="0" allowfullscreen>
+</iframe>
 
 ---
 
