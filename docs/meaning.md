@@ -17,7 +17,7 @@ Whenever we create or interpret some form of media, we are using [**semiotic res
 Everyday media rely on **physical means** such as your own body (e.g. your hairstyle) or clothing and **abilities**, such as the ability to speak, hear or see, and **cultural knowledge** such as the ability to speak one or many languages and the knowledge of other social conventions such as visual codes about which hairstyles, clothing and gestures to use in different places such as home, school or the workplace. 
 
 <figure>
-  <img class="illustration" src="{{ site.baseurl }}/assets/img/zulaikha_patel.png" alt="Zulaikha Patel raising her fist during a 2016 protest at Pretoria Girls High School">
+  <img class="illustration" src="{{ '/assets/img/zulaikha_patel.png' | relative_url }}" alt="Zulaikha Patel raising her fist during a 2016 protest at Pretoria Girls High School">
   <figcaption><strong>Figure 1:</strong> Zulaikha Patel protests discriminatory hair policies at Pretoria Girls High School in 2016. Source: <a href="https://www.facebook.com/photo.php?fbid=1090942497622301&set=a.165962343453659">Facebook</a></figcaption>
 </figure>
 

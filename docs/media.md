@@ -32,7 +32,7 @@ We tend to think of print or electronic media, but people have been communicatin
 That engraving’s **affordances** — its durability, interaction with surrounding light, even flickering firelight that animates the lines — still connect us to its creators (Hodgskiss & Esterhuysen, 2019). We call these **affordances** the potentials and constraints of a medium ([definitions](https://media-and-society.glitch.me/ideas/definitions/#Affordance)).
 
 <figure>
-  <img class="illustration" src="{{ site.baseurl }}/assets/img/Kinderdam_rhino.jpg" alt="Rock engraving of a rhino at Kinderdam, known as the Iziko Rhino">
+  <img class="illustration" src="{{ '/assets/img/Kinderdam_rhino.jpg' | relative_url }}" alt="Rock engraving of a rhino at Kinderdam, known as the Iziko Rhino">
   <figcaption><strong>Figure 1:</strong> “Iziko Rhino” — Rock engraving of a rhino at Kinderdam. Credit: Wikimedia Commons.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Social media platforms unite users, creators and advertisers on single apps or s
 Generative AI systems automate media creation via statistical models: LLMs (e.g. ChatGPT) for text, diffusion models (e.g. DALL·E) for images.  
 
 <em>Synthetic Rhino by DALL·E</em>  
-![Synthetic Iziko Rhino by DALL·E]({{ site.baseurl }}/assets/img/DALL-E_iziko_rhino.webp)
+![Synthetic Iziko Rhino by DALL·E]({{ '/assets/img/DALL-E_iziko_rhino.webp' | relative_url }})
 
 This **synthetic media** raises questions of trust, bias and provenance — capable of bulk misinformation or “deepfakes.”
 

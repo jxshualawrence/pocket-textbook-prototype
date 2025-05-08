@@ -46,7 +46,7 @@ jobs:
 
       - name: Generate PDF
         run: |
-          wkhtmltopdf --enable-local-file-access --outline --outline-depth 3 \
+            wkhtmltopdf --enable-local-file-access --load-error-handling ignore --outline --outline-depth 3 \
             "_site/pocket-textbook-prototype/index.html" \
             "_site/pocket-textbook-prototype/docs/media.html" \
             "_site/pocket-textbook-prototype/docs/meaning.html" \
