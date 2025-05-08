@@ -61,7 +61,10 @@ Socially shared **semiotic systems** can thus include written and spoken languag
 
 ### Check your knowledge
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3X8CKwnm4wp80JKLqTDoaUIbLeBBNVY9AbLKy_JISv4h1SA/viewform?embedded=true" width="640" height="1101" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- Responsive Google Form embed -->
+<iframe src="https://docs.google.com/forms/d/e/YourFormID/viewform?embedded=true" 
+        style="width: 100%; height: 1200px; border: none;">
+</iframe>
 
 ### Questions
 

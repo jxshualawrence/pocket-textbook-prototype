@@ -1,22 +1,19 @@
+# .github/workflows/pdf.yml
 name: Build and Publish PDF
-
 on:
   push:
-    branches: [ main ]    # run on every push to main branch (adjust if using a different branch)
-  workflow_dispatch:      # allow manual run from Actions tab if needed
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
     steps:
-      # Check out the repository code
       - uses: actions/checkout@v4
-
-      # Set up Ruby and Jekyll to build the site
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'       # Use a recent Ruby version
+          ruby-version: '3.1'
           bundler-cache: false
 
       - name: Install Jekyll and dependencies
@@ -24,18 +21,20 @@ jobs:
           gem install jekyll -v 4.3.2
           gem install jekyll-remote-theme -v 0.4.3
 
-      # Build the Jekyll site (outputs to _site/ directory)
       - name: Build site with Jekyll
         run: jekyll build --trace
 
-      # Install wkhtmltopdf (to convert HTML to PDF)
-      - name: Install wkhtmltopdf
+      # Install patched wkhtmltopdf (with Qt patched for multiple inputs)
+      - name: Install patched wkhtmltopdf
         run: |
           sudo apt-get update
-          sudo apt-get install -y wkhtmltopdf
+          # Install dependencies for wkhtmltopdf (fonts, etc.)
+          sudo apt-get install -y wget xfonts-base xfonts-75dpi fontconfig libfontconfig1 libxrender1 libxtst6 libjpeg-turbo8
+          # Download the patched wkhtmltopdf (Ubuntu 22.04 package)
+          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
+          # Install the .deb package (this installs wkhtmltopdf with patched Qt)
+          sudo apt-get install -y ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
-      # Prepare the built site for PDF conversion:
-      # (This step creates a folder structure matching the baseurl so that absolute links work locally)
       - name: Prepare site for PDF
         env:
           BASEURL: "pocket-textbook-prototype"
@@ -45,9 +44,6 @@ jobs:
           mv _site/docs "_site/${BASEURL}/docs"
           mv _site/index.html "_site/${BASEURL}/index.html"
 
-      # Use wkhtmltopdf to convert all pages to a single PDF.
-      # --enable-local-file-access allows wkhtmltopdf to load local images/CSS.
-      # --outline generates PDF bookmarks (using headings).
       - name: Generate PDF
         run: |
           wkhtmltopdf --enable-local-file-access --outline --outline-depth 3 \
@@ -56,15 +52,14 @@ jobs:
             "_site/pocket-textbook-prototype/docs/meaning.html" \
             pocket-textbook.pdf
 
-      # (Optional) Upload the PDF as an artifact (available in the Actions run)
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: PocketTextbook_PDF
           path: pocket-textbook.pdf
 
-      # Commit the PDF back to the repository (so it's published on the site or accessible via GitHub)
       - name: Commit PDF to repository
+        if: ${{ success() }}
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"

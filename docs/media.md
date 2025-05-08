@@ -91,10 +91,15 @@ Though the Iziko Rhino lives on a non-profit Wikimedia Commons, we still rely on
 > Here’s a TikTok clip by @wehustleclips.  
 > Reflect on Kendrick Lamar’s Super Bowl halftime show …  
 
-<iframe width="325" height="575" 
-        src="https://www.tiktok.com/embed/v3/7469872080104820001" 
-        frameborder="0" allowfullscreen>
-</iframe>
+<!-- Center the TikTok embed -->
+<div style="text-align: center;">
+  <iframe 
+    src="https://www.tiktok.com/embed/v3/7469872080104820001" 
+    width="325" height="575" 
+    style="max-width: 100%; border: none;" 
+    scrolling="no" allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
