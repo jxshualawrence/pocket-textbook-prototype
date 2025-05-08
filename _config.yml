@@ -1,11 +1,21 @@
-# _config.yml
-title: Pocket Textbook Prototype
-description: A 3-page demo of the FAM1001F pocket textbook
-remote_theme: just-the-docs/just-the-docs
+# Site settings
+title: "Pocket Textbook Prototype"
+description: "A 3-page demo of the FAM1001F pocket textbook"
+remote_theme: just-the-docs/just-the-docs  # Use the Just the Docs Jekyll theme
 
+# Base URL for GitHub Pages
 url: "https://jxshualawrence.github.io"
-baseurl: "/pocket-textbook-prototype"
+baseurl: "/pocket-textbook-prototype"      # Repo name for project site, or "" for user site
 
+# Include the docs/ folder as content pages (Just the Docs will treat these as documentation pages)
 collections:
   docs:
     output: true
+
+# (Optional) Just the Docs theme configuration:
+just_the_docs:
+  # When only one collection (docs) is used for all pages, the collection name is not shown in nav.
+  collections:
+    docs:
+      name: ""            # Leave blank to not show a collection heading in navigation
+      # nav_fold: true    # (Optional) could fold the collection in nav if many pages
