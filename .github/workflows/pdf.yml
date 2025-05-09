@@ -24,33 +24,23 @@ jobs:
       - name: Build site with Jekyll
         run: jekyll build --trace
 
-      # Install patched wkhtmltopdf (with Qt patched for multiple inputs)
       - name: Install patched wkhtmltopdf
         run: |
           sudo apt-get update
-          # Install dependencies for wkhtmltopdf (fonts, etc.)
           sudo apt-get install -y wget xfonts-base xfonts-75dpi fontconfig libfontconfig1 libxrender1 libxtst6 libjpeg-turbo8
-          # Download the patched wkhtmltopdf (Ubuntu 22.04 package)
           wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
-          # Install the .deb package (this installs wkhtmltopdf with patched Qt)
           sudo apt-get install -y ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
 
-      - name: Prepare site for PDF
-        env:
-          BASEURL: "pocket-textbook-prototype"
-        run: |
-          mkdir -p "_site/${BASEURL}"
-          mv _site/assets "_site/${BASEURL}/assets"
-          mv _site/docs "_site/${BASEURL}/docs"
-          mv _site/index.html "_site/${BASEURL}/index.html"
+      - name: Debug asset paths (optional)
+        run: find _site -name "*.jpg" -o -name "*.webp" -o -name "*.png"
 
       - name: Generate PDF
         run: |
-            wkhtmltopdf --enable-local-file-access --load-error-handling ignore --outline --outline-depth 3 \
-            "_site/pocket-textbook-prototype/index.html" \
-            "_site/pocket-textbook-prototype/docs/media.html" \
-            "_site/pocket-textbook-prototype/docs/meaning.html" \
-            pocket-textbook.pdf
+          wkhtmltopdf --enable-local-file-access --load-error-handling ignore --outline --outline-depth 3 \
+          _site/index.html \
+          _site/docs/media.html \
+          _site/docs/meaning.html \
+          pocket-textbook.pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
@@ -64,5 +54,5 @@ jobs:
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
           git add pocket-textbook.pdf
-          git commit -m "Update textbook PDF [skip ci]"
+          git diff --cached --quiet || git commit -m "Update textbook PDF [skip ci]"
           git push
