@@ -29,7 +29,11 @@ jobs:
           sudo apt-get install -y wget xfonts-base xfonts-75dpi fontconfig libfontconfig1 libxrender1 libxtst6 libjpeg-turbo8
           wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
           sudo apt-get install -y ./wkhtmltox_0.12.6.1-2.jammy_amd64.deb
-
+          
+      - name: Rewrite image paths in generated HTML
+        run: |
+          find _site -name "*.html" -exec sed -i 's|/pocket-textbook-prototype/assets/|../assets/|g' {} +    
+      
       - name: Generate PDF
         run: |
           wkhtmltopdf --enable-local-file-access --load-error-handling ignore --outline --outline-depth 3 \
