@@ -2,7 +2,9 @@
 title: Home
 nav_order: 1
 ---
-[Download Pocket Textbook PDF](https://github.com/jxshualawrence/pocket-textbook-prototype/raw/main/pocket-textbook.pdf)
+<a href="https://github.com/jxshualawrence/pocket-textbook-prototype/raw/main/pocket-textbook.pdf" download>
+  <button class="btn btn-primary">Download Pocket Textbook (PDF)</button>
+</a>
 
 # Media & Society Pocket Textbook
 
