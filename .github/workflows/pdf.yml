@@ -36,7 +36,7 @@ jobs:
       
       - name: Inject UTF-8 charset for proper PDF rendering
         run: |
-              find _site -name "*.html" -exec sed -i '1i <meta charset="UTF-8">' {} 
+          find _site -name "*.html" -exec sed -i '1i<meta charset="UTF-8">' {} \;
 
       - name: Generate PDF
         run: |
