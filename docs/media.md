@@ -32,8 +32,8 @@ We tend to think of print or electronic media, but people have been communicatin
 That engraving’s **affordances** — its durability, interaction with surrounding light, even flickering firelight that animates the lines — still connect us to its creators (Hodgskiss & Esterhuysen, 2019). We call these **affordances** the potentials and constraints of a medium ([definitions](https://media-and-society.glitch.me/ideas/definitions/#Affordance)).
 
 <figure>
-  <img class="illustration" src="{{ '/assets/img/Kinderdam_rhino.jpg' | relative_url }}" alt="Rock engraving of a rhino at Kinderdam, known as the Iziko Rhino">
-  <figcaption><strong>Figure 1:</strong> “Iziko Rhino” — Rock engraving of a rhino at Kinderdam. Credit: Wikimedia Commons.</figcaption>
+  <img class="illustration" src="{{ '/assets/img/Iziko_Rhino_Pecking.JPG' | relative_url }}" alt="Rock engraving of the Iziko Rhino statue in Cape Town">
+  <figcaption><strong>Figure 1:</strong> “Iziko Rhino” — Bronze sculpture of the Iziko Rhino outside the Iziko South African Museum in Cape Town. Source: Marion Walton.</figcaption>
 </figure>
 
 Many other communication technologies followed: print, digital images, audio/video formats, radio waves, the internet and generative AI.
